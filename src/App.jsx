@@ -13,11 +13,10 @@ function App() {
       <img src={logo} alt="Logo" className="logo" />
 
       
-        <label for="usuario">USUÁRIO</label>
-        <input type="text" placeholder="Digite seu usuário" />
+        <label for="usuario">Entrar no Instagram</label>
+        <input type="text" placeholder="Número de celular, nome de usuário ou email" />
 
-        <label for="senha">SENHA</label>
-        <input type="password" placeholder="Digite sua senha" />
+        <input type="password" placeholder="Senha" />
 
         <div className="opcoes">
           <a href="#">esqueceu a senha?</a>
