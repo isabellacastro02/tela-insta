@@ -92,9 +92,26 @@ button {
     margin-left: 30px;
   }
 }
-
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  #esq {
+    width: 40%; /* imagem um pouco menor */
+    height: 100vh;
+  }
+
+  #dir {
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 35%;
+    font-size: 1.4rem;
+   
+  }
+
+  .logo {
+    width: 50%;
+    margin: 30px auto;
+  }
 }
 
 /* DESKTOP*/
